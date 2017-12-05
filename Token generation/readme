@@ -1,0 +1,6 @@
+1. Determine the set of tokens which a lexical analyzer would need to recognize.
+
+2. Design and implement a lexical analyzer procedure to read a source program in the above
+language and print the next token in the input stream. If the token detected is a valueless
+token, such as a keyword, then it is sufficient to print only the keyword. If it has a value,
+then both the token type and lexeme should be printed.
