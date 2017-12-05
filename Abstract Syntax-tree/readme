@@ -1,0 +1,7 @@
+Extend the recursive-descent syntax analyzer for MicroScala to produce an abstract syntax-tree
+representation of the input program. If the source program has no syntax errors, the result of the
+parse should be a source program listing (e.g., this can be printed by the lexical analyzer as the
+program is read) and an abstract syntax tree representation of the major program units (e.g., each
+main program and method will have a syntax tree). For convenience this syntax tree may be output
+at the point at which it is generated (i.e., interleaved with the source program listing). Print the
+tree in Cambridge Polish prefix notation.
