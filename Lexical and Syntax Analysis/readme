@@ -1,7 +1,13 @@
-Extend your recursive-descent syntax analyzer for MicroScala to produce an abstract syntax-tree
-representation of the input program. If the source program has no syntax errors, the result of the
-parse should be a source program listing (e.g., this can be printed by the lexical analyzer as the
-program is read) and an abstract syntax tree representation of the major program units (e.g., each
-main program and method will have a syntax tree). For convenience this syntax tree may be output
-at the point at which it is generated (i.e., interleaved with the source program listing). Print the
-tree in Cambridge Polish prefix notation.
+Design and implement a recursive-descent syntax analyzer for MicroScala which will parse programs
+according to the prescribed grammar. This process has the following steps:
+
+1. The layout of the parser should conform to the EBNF grammar of MicroScala
+
+2. The parser should interact with the lexical analyzer to retrieve tokens as it needs them.
+
+3. The parser may terminate execution if a syntax error is detected, printing a suitable error
+message.
+
+4. If the source program has no syntax errors, the result of the parse should be a source program
+listing (e.g., this can be printed by the lexical analyzer as the program is read) and a statement
+that parsing was successful.
